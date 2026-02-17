@@ -1,0 +1,14 @@
+yara-python
+pefile
+watchdog
+pyzipper
+psutil
+python-magic-bin; platform_system=="Windows"
+python-magic; platform_system!="Windows"
+requests
+python-dotenv
+scikit-learn
+numpy
+joblib
+flask
+pywin32; platform_system=="Windows"
