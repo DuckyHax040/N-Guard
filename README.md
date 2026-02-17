@@ -43,8 +43,8 @@ pyzipper, joblib, scikit-learn, numpy, flask, pywin32
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/cyberguard-pro.git
-cd cyberguard-pro
+git clone https://github.com/whoamiii302-arch/N-Guard.git
+cd N-Guard
 ```
 
 ### 2. Create a virtual environment (recommended)
@@ -109,7 +109,7 @@ CyberGuard Pro provides three operation modes:
 Run the tool without arguments to enter an interactive menu:
 
 ```bash
-python cyberguard.py
+python n-guard.py
 ```
 
 You will see:
@@ -126,16 +126,16 @@ Options:
 
 ```bash
 # Scan a single file
-python cyberguard.py scan path/to/file.exe
+python n-guard.py scan path/to/file.exe
 
 # Scan all files in a directory recursively
-python cyberguard.py scan path/to/directory
+python n-guard.py scan path/to/directory
 ```
 
 ### 3️⃣ Real‑time monitoring
 
 ```bash
-python cyberguard.py monitor
+python n-guard.py monitor
 ```
 
 This starts all enabled monitors (file, process, network, ETW, registry). The web dashboard becomes available at [http://localhost:5000](http://localhost:5000). Press `Ctrl+C` to stop.
@@ -156,8 +156,8 @@ The dashboard auto‑refreshes every 2 seconds.
 ## 📁 Project Structure
 
 ```
-cyberguard-pro/
-├── cyberguard.py          # Main application
+N-Guard/
+├── n-guard.py          # Main application
 ├── .env                    # API keys (create this file)
 ├── requirements.txt        # Python dependencies
 ├── rules/                  # YARA rules directory (hot‑reload enabled)
@@ -195,7 +195,7 @@ cyberguard-pro/
 
 ### Customizing Scoring Weights
 
-Edit the `SCORE_*` constants in the `Config` class inside `cyberguard.py`.
+Edit the `SCORE_*` constants in the `Config` class inside `n-guard.py`.
 
 ### Adding New Detectors
 
