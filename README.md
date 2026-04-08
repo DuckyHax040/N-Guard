@@ -233,7 +233,7 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 ## 📬 Contact
 
-For questions, suggestions, or issues, please open an issue on GitHub or contact the maintainer at [test.gmail.com].
+For questions, suggestions, or issues, please open an issue on GitHub or contact the maintainer at [https://t.me/hovercs].
 
 ---
 
