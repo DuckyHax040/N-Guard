@@ -43,7 +43,7 @@ pyzipper, joblib, scikit-learn, numpy, flask, pywin32
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/whoamiii302-arch/N-Guard.git
+git clone https://github.com/DuckyHax040/N-Guard.git
 cd N-Guard
 ```
 
