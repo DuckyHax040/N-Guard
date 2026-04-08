@@ -221,7 +221,8 @@ Contributions are welcome! Please follow these steps:
 
 ## 📄 License
 
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.  
+You can view the full license here: https://github.com/DuckyHax040/N-Guard/blob/main/LICENSE.md
 
 ---
 
